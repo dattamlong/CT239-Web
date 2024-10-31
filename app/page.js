@@ -55,6 +55,7 @@ export default function Home() {
         >
           Thuật toán vét cạn
         </button>
+
         <button
           className={`col btn ${activeTab === 'branchAndBound' ? 'btn-primary' : 'btn-outline-primary'}`}
           onClick={() => setActiveTab('branchAndBound')}
